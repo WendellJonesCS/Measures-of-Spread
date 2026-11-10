@@ -13,8 +13,8 @@ int main(){
     for (int i = 0; i < N; i++){
          sum += population[i];
     }
-    int mean = sum / N;
-    int variance = 0;
+    float mean = sum / N;
+    float variance = 0;
 
    for (int i = 0; i < N; i++){
         variance += (std::pow(population[i] - mean, 2)) ;
